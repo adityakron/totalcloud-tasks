@@ -12,3 +12,7 @@ do
      echo -e "\nInstances status in region: '$region'"
      aws ec2 describe-instance-status --include-all-instances
 done
+
+
+
+# aws ec2 describe-instances --filters "Name=image-id,Values=ami-x0123456,ami-y0123456,ami-z0123456"
