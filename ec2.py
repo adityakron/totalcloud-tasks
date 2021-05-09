@@ -5,7 +5,7 @@ ec2 = boto3.resource('ec2')
 for instance in ec2.instances.all():
     print (instance.id , instance.state)
     
-# For all region 
+# For alll region 
 
  for region in `aws ec2 describe-regions --output text | cut -f3`
 do
