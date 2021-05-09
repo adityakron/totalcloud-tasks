@@ -7,7 +7,7 @@ import urllib3
 response = requests.get("https://api.covid19india.org/v4/min/data.min.json")
 covid_data = json.loads(response.text)
 
-#  Data store in covid_data variable
+#  data store in covid_data variable
 
 print("State",'\t', "Active Cases")
 print("___________")
